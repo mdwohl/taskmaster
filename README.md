@@ -13,7 +13,7 @@ This app will provide a convenient system for users to add tasks, and keep track
 - Used a toast notification to verify task add success.
 
 ### Lab 27 - Settings Page, Detail Page
-
+(IN PROGRESS)
 
 ### Screenshots
 #### Lab26 Build
