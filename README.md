@@ -13,7 +13,9 @@ This app will provide a convenient system for users to add tasks, and keep track
 - Used a toast notification to verify task add success.
 
 ### Lab 27 - Settings Page, Detail Page
-(IN PROGRESS)
+- Created Detail page
+- Created Settings page
+- Added buttons to Home for three hard-coded tasks; those buttons correspond withintent.putExtra("task","Feed Cat"); title on Detail
 
 ### Screenshots
 #### Lab26 Build
