@@ -16,7 +16,9 @@ This app will provide a convenient system for users to add tasks, and keep track
 - Created Detail page
 - Created Settings page
 - Added buttons to Home for three hard-coded tasks; those buttons correspond with title on Detail
+- Username saves on Settings and displays on Main after a username has been entered
 
 ### Screenshots
 #### Lab26 Build
 <img src="screenshots/screenshot_lab26.png" alt="home" width="300">
+<img src="screenshots/screenshot_lab27.png" alt="home" width="300">
