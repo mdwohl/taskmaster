@@ -40,51 +40,40 @@
         app:layout_constraintStart_toEndOf="@+id/addTaskButton" />
 
     <Button
-        android:id="@+id/waterPlantButton"
+        android:id="@+id/feedCatButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Water Plant"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="28dp"
+        android:text="Feed Cat"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/walkDogButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="60dp"
         android:text="Walk Dog"
-        app:layout_constraintBottom_toTopOf="@+id/waterPlantButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/feedCatButton" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/feedCatButton"
+        android:id="@+id/waterPlantButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Feed Cat"
-        app:layout_constraintBottom_toTopOf="@+id/walkDogButton"
+        android:text="Water Plant"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameTasks"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:text="Settings"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/walkDogButton"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintTop_toBottomOf="@+id/tasksView" />
 
     <TextView
         android:id="@+id/displayUsernameMain"
@@ -98,5 +87,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tasksView"
+        android:layout_width="409dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
