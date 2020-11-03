@@ -26,6 +26,10 @@ This app will provide a convenient system for users to add tasks, and keep track
 ### Screenshots
 #### Lab26 Build
 <img src="screenshots/screenshot_lab26.png" alt="home" width="300">
+
+#### Lab27 Build
 <img src="screenshots/screenshot_lab27.png" alt="home" width="300">
+
+#### Lab28 Build
 <img src="screenshots/screenshot_lab28.png" alt="home" width="300">
 
